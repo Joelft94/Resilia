@@ -1,0 +1,124 @@
+{
+  "configName": "rosabella-moringa-default",
+  "storeId": "store_75043c382eaf",
+  "accountId": "acc_2bd9322e0ac2",
+  "branding": {
+    "companyName": "Rosabella",
+    "logoUrl": "/images/logo/1725713121-logo_rosabella.webp",
+    "primaryColor": "#059669",
+    "secondaryColor": "#10b981",
+    "accentColor": "#34d399",
+    "selectionColor": "#6ee7b7"
+  },
+  "announcementBar": {
+    "enabled": true,
+    "backgroundColor": "#059669",
+    "textColor": "#ffffff",
+    "messages": [
+      "FREE SHIPPING ON ALL ORDERS OVER $50+",
+      "90-DAY MONEY BACK GUARANTEE"
+    ],
+    "rotationInterval": 3000
+  },
+  "product": {
+    "id": "product_cb0ca0e58dd1",
+    "name": "Rosabella Moringa",
+    "subtitle": "Naturally Lowers Cortisol To Help Restore Balance Inside and Out",
+    "description": "Rosabella Moringa is designed to lower cortisol — the hidden root cause behind stress, weight gain, poor sleep, and brain fog.",
+    "detailedDescription": "Just one daily dose helps restore balance from within — naturally supporting your mood, metabolism, and mental clarity.",
+    "price": 49.95,
+    "originalPrice": 69.95,
+    "currency": "USD",
+    "carouselImages": [
+      "/images/Moringa_Main_1.webp",
+      "/images/comp_moringa_1.webp",
+      "/images/comp_moringa_2.webp",
+      "/images/comp_moringa_6.webp",
+      "/images/comp_moringa_13.webp",
+      "/images/comp_moringa_14.webp",
+      "/images/pp-6.webp"
+    ],
+    "benefits": [
+      "Helps maintain steady energy levels throughout the day",
+      "Supports restful sleep and healthy recovery",
+      "Nutrients that promote calm and emotional balance",
+      "Supports clarity and mental focus"
+    ]
+  },
+  "reviews": {
+    "platform": "Amazon",
+    "averageRating": 4.3,
+    "totalReviews": 7708,
+    "verified": true,
+    "date": "September 26, 2025"
+  },
+  "shipping": {
+    "provider": "from our Ohio warehouse",
+    "estimatedDate": "Sun, Sep 28",
+    "deliveryTime": "3 to 6 business days",
+    "inStock": true,
+    "stockMessage": "In stock"
+  },
+  "paymentMethods": [
+    {
+      "name": "American Express",
+      "icon": "/images/icons/amex.svg",
+      "alt": "Amex"
+    },
+    {
+      "name": "Apple Pay",
+      "icon": "/images/icons/apple-pay.svg",
+      "alt": "Apple Pay"
+    },
+    {
+      "name": "Diners Club",
+      "icon": "/images/icons/diners.svg",
+      "alt": "Diners"
+    },
+    {
+      "name": "Discover",
+      "icon": "/images/icons/discover.svg",
+      "alt": "Discover"
+    },
+    {
+      "name": "Mastercard",
+      "icon": "/images/icons/mastercard.svg",
+      "alt": "Mastercard"
+    },
+    {
+      "name": "Maestro",
+      "icon": "/images/icons/maestro.svg",
+      "alt": "Maestro"
+    },
+    {
+      "name": "Shop Pay",
+      "icon": "/images/icons/shop-pay.svg",
+      "alt": "Shop Pay"
+    },
+    {
+      "name": "Visa",
+      "icon": "/images/icons/visa.svg",
+      "alt": "Visa"
+    }
+  ],
+  "cta": {
+    "primaryButton": "ADD TO CART",
+    "primaryButtonColor": "#059669",
+    "primaryButtonTextColor": "#ffffff"
+  },
+  "variants": {
+    "single": "variant_8fb9124b0c1d"
+  },
+  "prices": {
+    "variant_8fb9124b0c1d": {
+      "oneTime": "price_ec67452d4e44",
+      "recurring": "price_a112307300b6"
+    }
+  },
+  "seo": {
+    "title": "Rosabella Moringa - Naturally Lower Cortisol & Restore Balance",
+    "description": "Rosabella Moringa naturally lowers cortisol to help restore balance inside and out. Support energy, sleep, mood, and mental clarity.",
+    "keywords": ["moringa", "cortisol", "natural supplement", "energy", "sleep", "stress relief"]
+  },
+  "defaultCurrency": "USD"
+}

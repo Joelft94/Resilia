@@ -1,0 +1,16 @@
+{
+  "pluginId": "rosabella-moringa-landing-v1",
+  "name": "Rosabella Moringa Landing Page",
+  "version": "1.0.0",
+  "mode": "direct-mode",
+  "description": "Complete Rosabella Moringa supplement landing page with single product checkout",
+  "author": "Tagada Plugin",
+  "license": "MIT",
+  "config": {
+    "title": "Rosabella Moringa Landing",
+    "routes": {
+      "basePath": "/",
+      "customDomain": false
+    }
+  }
+}

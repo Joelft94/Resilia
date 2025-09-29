@@ -106,6 +106,252 @@
     "primaryButtonColor": "#059669",
     "primaryButtonTextColor": "#ffffff"
   },
+  "guarantee": {
+    "title": "Feel better or it's free!",
+    "description": "If you don't notice a boost in energy, stress levels or stubborn weight within 90 days of the product being delivered, return it within 90 days for a full refund*"
+  },
+  "testimonial": {
+    "rating": 5,
+    "quote": "I've been feeling lighter, more energized, and more focused since starting Rosabella Moringa. I love how it's helping me feel more balanced overall.",
+    "customerName": "Cynthia R.",
+    "customerLocation": "United States",
+    "customerImage": "/images/testimonials/customer-1.jpg",
+    "verified": true
+  },
+  "nutritionProblems": {
+    "title": "Modern Nutrition May Be Falling Short",
+    "content": [
+      "Today's food supply isn't what it once was. Over-farming, pesticides, and nutrient-depleted soil have impacted the quality of many foods on store shelves.",
+      "Many people may not be getting enough essential vitamins and minerals from their diets alone and that can make it harder to feel their best.",
+      "Some people report experiencing symptoms like low energy, brain fog, or poor sleep all of which could be linked to gaps in nutrition.",
+      "Supporting your body with key nutrients can help maintain overall health and well-being especially in today's fast-paced, high-stress world."
+    ],
+    "mediaUrl": "/images/comp_moringa_1.webp",
+    "mediaAlt": "Person experiencing fatigue",
+    "backgroundColor": "#f8fafc"
+  },
+  "nutrientDensePlant": {
+    "title": "The Nutrient-Dense Plant Backed by Centuries of Use",
+    "subtitle": "Often referred to as the \"Miracle Tree,\" Moringa has been used for generations as a nutrient-rich plant known for its versatility and traditional wellness uses. Its wide range of naturally occurring nutrients makes it a powerful daily addition to support overall well-being.",
+    "description": "Packed with over 90 essential nutrients—including vitamin A, vitamin C, calcium, iron, magnesium, potassium, and powerful antioxidants like quercetin—Rosabella Moringa helps support your daily nutrient intake and fill common gaps in modern diets.",
+    "benefitsTitle": "These nutrients are known to:",
+    "benefits": [
+      "Support cellular energy and mitochondrial health",
+      "Help the body manage oxidative stress and free radical damage",
+      "Promote nutritional balance to support mood, focus, and daily resilience",
+      "Encourage more restful, rejuvenating sleep as part of a healthy routine"
+    ],
+    "conclusion": "With Rosabella Moringa, you're tapping into the power of nature's most nutrient-dense plant to support your energy, balance, and resilience.",
+    "mediaUrl": "/images/comp_moringa_2.webp",
+    "mediaAlt": "Hand holding Rosabella Moringa product",
+    "backgroundColor": "#f1f5f9"
+  },
+  "customerSurvey": {
+    "title": "Real Feedback from Rosabella Customers",
+    "subtitle": "In a recent customer survey, users reported:",
+    "stats": [
+      {
+        "percentage": "42%",
+        "description": "Felt a noticeable boost in energy within the first 14 days*"
+      },
+      {
+        "percentage": "38%",
+        "description": "Said they experienced deeper, more restful sleep*"
+      },
+      {
+        "percentage": "67%",
+        "description": "Noticed improvements in how their body responded to daily stress*"
+      },
+      {
+        "percentage": "84%",
+        "description": "Reported better skin, hair, or nails after regular use*"
+      }
+    ],
+    "disclaimer": "*Results based on a voluntary, self-reported customer survey conducted by Rosabella in 2024. Individual results may vary.",
+    "backgroundColor": "#ffffff"
+  },
+  "oneIngredient": {
+    "title": "One Ingredient. Endless Nutritional Benefits.",
+    "description": "Unlike most supplements with long, unrecognizable ingredient lists, Rosabella Moringa keeps it simple with just one ingredient: 100% pure Moringa leaf powder. From essential vitamins and minerals to powerful antioxidants, it offers a natural way to support your daily wellness with a wide range of plant-based nutrients.",
+    "subtitle": "Here's what Rosabella Moringa delivers in every serving:",
+    "vitamins": {
+      "title": "Vitamins:",
+      "benefits": [
+        "Vitamin A supports healthy skin, vision, and immune system function",
+        "Vitamin C helps protect cells from oxidative stress and supports natural collagen production",
+        "B Vitamins (B1, B2, B6) contribute to normal energy metabolism and nervous system support"
+      ]
+    },
+    "minerals": {
+      "title": "Minerals:",
+      "benefits": [
+        "Calcium helps support bone strength and structure",
+        "Magnesium contributes to relaxation and healthy sleep patterns",
+        "Potassium supports proper muscle contraction and nerve communication"
+      ]
+    },
+    "antioxidants": {
+      "title": "Antioxidants:",
+      "benefits": [
+        "Quercetin is known for its antioxidant properties and role in cellular defense"
+      ]
+    },
+    "centerImage": {
+      "url": "/images/1734167103-rosabella.webp",
+      "alt": "Rosabella Moringa nutritional benefits diagram"
+    },
+    "backgroundColor": "#f8f9fa"
+  },
+  "videoTestimonials": {
+    "title": "See Why This Ancient Superfood Is Loved Daily for Transforming Health",
+    "videos": [
+      {
+        "src": "/videos/first.mp4",
+        "poster": "/images/video-thumbnails/first-thumb.webp",
+        "alt": "Customer testimonial video 1"
+      },
+      {
+        "src": "/videos/second.mp4",
+        "poster": "/images/video-thumbnails/second-thumb.webp",
+        "alt": "Customer testimonial video 2"
+      },
+      {
+        "src": "/videos/third.mp4",
+        "poster": "/images/video-thumbnails/third-thumb.webp",
+        "alt": "Customer testimonial video 3"
+      },
+      {
+        "src": "/videos/fourth.mp4",
+        "poster": "/images/video-thumbnails/fourth-thumb.webp",
+        "alt": "Customer testimonial video 4"
+      }
+    ],
+    "cta": {
+      "text": "BUY NOW & SAVE",
+      "buttonColor": "#059669",
+      "textColor": "#ffffff"
+    },
+    "guarantee": "90-Day Money Back Guarantee",
+    "backgroundColor": "#ffffff"
+  },
+  "moringaPromise": {
+    "title": "Rosabella Moringa Promise",
+    "promises": [
+      {
+        "icon": "/icons/clean-and-traceable.webp",
+        "title": "Clean and Traceable",
+        "alt": "Clean and traceable icon"
+      },
+      {
+        "icon": "/icons/freshly-harvested.webp",
+        "title": "Freshly Harvested",
+        "alt": "Freshly harvested icon"
+      },
+      {
+        "icon": "/icons/no-artificial-additives.webp",
+        "title": "No Artificial Additives",
+        "alt": "No artificial additives icon"
+      },
+      {
+        "icon": "/icons/gluten-free.webp",
+        "title": "Gluten Free",
+        "alt": "Gluten free icon"
+      },
+      {
+        "icon": "/icons/non-gmo.webp",
+        "title": "Non-GMO",
+        "alt": "Non-GMO icon"
+      },
+      {
+        "icon": "/icons/manufactered.webp",
+        "title": "Manufactured in an FDA-Registered Facility",
+        "alt": "FDA registered facility icon"
+      }
+    ],
+    "backgroundColor": "#ffffff"
+  },
+  "expectationTimeline": {
+    "title": "What You Might Expect from Daily Use of Rosabella Moringa",
+    "milestones": [
+      {
+        "timeframe": "1 Week",
+        "icon": "/icons/mini-calendar.webp",
+        "description": "You may begin to notice subtle changes in energy and digestion as your body starts absorbing plant-based nutrients like iron, magnesium, and B vitamins.",
+        "side": "right"
+      },
+      {
+        "timeframe": "1 Month",
+        "icon": "/icons/mini-calendar.webp",
+        "description": "Many customers report feeling more steady energy and mental clarity over the course of the first month, especially when taking Rosabella Moringa consistently each day.",
+        "side": "left"
+      },
+      {
+        "timeframe": "2 Months",
+        "icon": "/icons/mini-calendar.webp",
+        "description": "Key nutrients like B vitamins, iron, and antioxidants may help support focus, immune health, and resilience to everyday fatigue when combined with a healthy lifestyle.",
+        "side": "right"
+      },
+      {
+        "timeframe": "3 Months",
+        "icon": "/icons/mini-calendar.webp",
+        "description": "Over time, consistent nutrient intake may support natural energy metabolism, stamina, and overall recovery from daily activity.",
+        "side": "left"
+      },
+      {
+        "timeframe": "6 Months",
+        "icon": "/icons/mini-calendar.webp",
+        "description": "Some users report better stress response, improved sleep quality, and more balanced energy after regular use over several months.",
+        "side": "right"
+      },
+      {
+        "timeframe": "12 Months",
+        "icon": "/icons/mini-calendar.webp",
+        "description": "With consistent use, Rosabella Moringa can be part of your long-term wellness routine—supporting daily vitality, focus, and nutrient diversity alongside a healthy diet and lifestyle.",
+        "side": "left"
+      }
+    ],
+    "cta": {
+      "text": "BUY NOW & SAVE",
+      "buttonColor": "#059669",
+      "textColor": "#ffffff"
+    },
+    "guarantee": "90-Day Money Back Guarantee",
+    "backgroundColor": "#f8f9fa"
+  },
+  "faq": {
+    "questions": [
+      {
+        "id": 1,
+        "question": "How Does It Work?",
+        "answer": "Rosabella Moringa works by delivering essential nutrients that support your body's natural balance and energy production."
+      },
+      {
+        "id": 2,
+        "question": "What Can Rosabella Moringa Help With?",
+        "answer": "💧 Feeling Puffy or Bloated\nStress and nutrient deficiencies may contribute to occasional water retention and visible puffiness. Rosabella Moringa includes supportive nutrients that help you feel lighter and more balanced from within.\n\n⚡ Low Energy & Fatigue\nRosabella Moringa delivers nutrients like magnesium, B vitamins, and antioxidants that support natural energy production. Helping you feel more awake and alert throughout the day.\n\n😴 Occasional Sleeplessness\nNutrients in Rosabella Moringa help support relaxation and stress resilience, which can contribute to better sleep quality over time.\n\n😤 Stress & Irritability\nMagnesium and B-vitamins in Rosabella Moringa help maintain emotional balance by supporting a healthy nervous system.\n\n🧠 Brain Fog\nA combination of antioxidants and brain-nourishing nutrients supports mental clarity and focus.\n\n🦴 Joint Discomfort\nNutrients like quercetin and vitamin C support healthy inflammatory responses, helping you stay comfortable and mobile.\n\n🛡️ Immune Support\nVitamins A, C, and zinc help support year-round immune system function."
+      },
+      {
+        "id": 3,
+        "question": "When Will I See Results?",
+        "answer": "Most customers notice improvements in energy and overall wellness within the first 1-2 weeks of consistent use. For optimal results, we recommend taking Rosabella Moringa daily for at least 30 days."
+      },
+      {
+        "id": 4,
+        "question": "How Long Until I Get It?",
+        "answer": "Orders typically ship within 1-2 business days and arrive within 3-6 business days via standard shipping. Expedited shipping options are available at checkout."
+      },
+      {
+        "id": 5,
+        "question": "Who Can Use It?",
+        "answer": "Rosabella Moringa is formulated for adults looking to support their natural energy, stress response, and overall wellness. As with any supplement, consult your healthcare provider before use if you are pregnant, nursing, or have any medical conditions."
+      },
+      {
+        "id": 6,
+        "question": "Results or Full Refund Guarantee",
+        "answer": "We offer a 90-day money-back guarantee. If you're not completely satisfied with your results, simply return the product within 90 days for a full refund - no questions asked."
+      }
+    ]
+  },
   "variants": {
     "single": "variant_8fb9124b0c1d"
   },

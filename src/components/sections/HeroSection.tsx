@@ -1,6 +1,9 @@
 import React, { useState } from 'react';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
 import { useLandingPageController } from '../../hooks/useLandingController';
+import { TestimonialCard } from './TestimonialCard';
+import { GuaranteeSection } from './GuaranteeSection';
+import { FAQSection } from './FAQSection';
 
 export function HeroSection() {
     const { config, onBuyNow, initLoading } = useLandingPageController();
@@ -53,8 +56,8 @@ export function HeroSection() {
 
                 {/* Two Column Layout */}
                 <div className="grid lg:grid-cols-2 gap-12 items-start">
-                    {/* Left Column - Product Carousel */}
-                    <div className="order-2 lg:order-1">
+                    {/* Left Column - Product Carousel (Sticky) */}
+                    <div className="order-2 lg:order-1 lg:sticky lg:top-8 lg:self-start">
                         {carouselImages.length > 0 && (
                             <div className="relative">
                                 {/* Main Product Image */}
@@ -108,10 +111,13 @@ export function HeroSection() {
                                 )}
                             </div>
                         )}
+
+                        {/* Testimonial Card below carousel */}
+                        <TestimonialCard />
                     </div>
 
-                    {/* Right Column - Product Info */}
-                    <div className="order-1 lg:order-2">
+                    {/* Right Column - Product Info (Scrollable) */}
+                    <div className="order-1 lg:order-2 min-h-screen">
                         {/* Amazon Reviews */}
                         {config.reviews && (
                             <div className="flex items-center gap-2 mb-4">
@@ -204,6 +210,12 @@ export function HeroSection() {
                                 ))}
                             </div>
                         )}
+
+                        {/* Guarantee Section */}
+                        <GuaranteeSection />
+
+                        {/* FAQ Section */}
+                        <FAQSection />
                     </div>
                 </div>
             </div>

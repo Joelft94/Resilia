@@ -4,6 +4,13 @@ import { useLandingPageController } from '../hooks/useLandingController';
 // Import new section components
 import { AnnouncementBar } from './sections/AnnouncementBar';
 import { HeroSection } from './sections/HeroSection';
+import { NutritionProblemsSection } from './sections/NutritionProblemsSection';
+import { NutrientDensePlantSection } from './sections/NutrientDensePlantSection';
+import { CustomerSurveySection } from './sections/CustomerSurveySection';
+import { OneIngredientSection } from './sections/OneIngredientSection';
+import VideoTestimonialsSection from './sections/VideoTestimonialsSection';
+import MoringaPromiseSection from './sections/MoringaPromiseSection';
+import ExpectationTimelineSection from './sections/ExpectationTimelineSection';
 
 export function RosabellaMoringaLanding() {
     const controller = useLandingPageController();
@@ -52,10 +59,32 @@ export function RosabellaMoringaLanding() {
             {/* Top Announcement Bar */}
             <AnnouncementBar />
 
-            {/* Hero Section with Two-Column Layout */}
+            {/* Hero Section with Two-Column Layout including guarantee and FAQ */}
             <HeroSection />
 
-            {/* Additional sections will be added here later */}
+            {/* Modern Nutrition Problems Section */}
+            <NutritionProblemsSection />
+
+            {/* Nutrient-Dense Plant Section */}
+            <NutrientDensePlantSection />
+
+            {/* Customer Survey Results Section */}
+            <CustomerSurveySection />
+
+            {/* One Ingredient Section */}
+            <OneIngredientSection />
+
+            {/* Video Testimonials Section */}
+            <VideoTestimonialsSection />
+
+            {/* Moringa Promise Section */}
+            <MoringaPromiseSection />
+
+            {/* Separator Line */}
+            <div className="border-b border-gray-200"></div>
+
+            {/* Expectation Timeline Section */}
+            <ExpectationTimelineSection />
         </div>
     );
 }

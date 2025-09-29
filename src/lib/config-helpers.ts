@@ -10,99 +10,157 @@ export interface RosabellaMoringaConfig {
     accentColor: string;
     selectionColor: string;
   };
+  announcementBar?: {
+    enabled: boolean;
+    backgroundColor: string;
+    textColor: string;
+    messages: string[];
+    rotationInterval: number;
+  };
   product: {
     id: string;
     name: string;
-    tagline: string;
+    subtitle: string;
     description: string;
+    detailedDescription: string;
     carouselImages: string[];
     price: number;
     originalPrice: number;
-    savings: number;
-    savingsPercent: number;
+    currency: string;
     benefits: string[];
-    nutritionFacts: {
-      totalNutrients: string;
-      vitamins: Array<{
-        name: string;
-        description: string;
-        types?: string[];
-      }>;
-      minerals: Array<{
-        name: string;
-        description: string;
-      }>;
-      antioxidants: Array<{
-        name: string;
-        description: string;
-      }>;
-    };
-    uniqueSellingPoints: string[];
   };
-  customerSurvey: {
+  reviews?: {
+    platform: string;
+    averageRating: number;
+    totalReviews: number;
+    verified: boolean;
+    date: string;
+  };
+  shipping?: {
+    provider: string;
+    estimatedDate: string;
+    deliveryTime: string;
+    inStock: boolean;
+    stockMessage: string;
+  };
+  paymentMethods?: Array<{
+    name: string;
+    icon: string;
+    alt: string;
+  }>;
+  cta?: {
+    primaryButton: string;
+    primaryButtonColor: string;
+    primaryButtonTextColor: string;
+  };
+  guarantee?: {
+    title: string;
+    description: string;
+  };
+  testimonial?: {
+    rating: number;
+    quote: string;
+    customerName: string;
+    customerLocation: string;
+    customerImage: string;
+    verified: boolean;
+  };
+  nutritionProblems?: {
+    title: string;
+    content: string[];
+    mediaUrl: string;
+    mediaAlt: string;
+    backgroundColor?: string;
+  };
+  nutrientDensePlant?: {
     title: string;
     subtitle: string;
-    results: Array<{
-      percentage: number;
+    description: string;
+    benefitsTitle: string;
+    benefits: string[];
+    conclusion: string;
+    mediaUrl: string;
+    mediaAlt: string;
+    backgroundColor?: string;
+  };
+  customerSurvey?: {
+    title: string;
+    subtitle: string;
+    stats: Array<{
+      percentage: string;
       description: string;
+    }>;
+    disclaimer: string;
+    backgroundColor?: string;
+  };
+  oneIngredient?: {
+    title: string;
+    description: string;
+    subtitle: string;
+    vitamins: {
+      title: string;
+      benefits: string[];
+    };
+    minerals: {
+      title: string;
+      benefits: string[];
+    };
+    antioxidants: {
+      title: string;
+      benefits: string[];
+    };
+    centerImage: {
+      url: string;
+      alt: string;
+    };
+    backgroundColor?: string;
+  };
+  videoTestimonials?: {
+    title: string;
+    videos: Array<{
+      src: string;
+      poster: string;
+      alt: string;
+    }>;
+    cta: {
+      text: string;
+      buttonColor: string;
+      textColor: string;
+    };
+    guarantee: string;
+    backgroundColor?: string;
+  };
+  moringaPromise?: {
+    title: string;
+    promises: Array<{
       icon: string;
+      title: string;
+      alt: string;
     }>;
+    backgroundColor?: string;
   };
-  testimonials: {
+  expectationTimeline?: {
     title: string;
-    overallRating: number;
-    totalReviews: number;
-    reviews: Array<{
-      id: number;
-      name: string;
-      rating: number;
-      comment: string;
-      verified: boolean;
-      avatar: string;
-      location: string;
+    milestones: Array<{
+      timeframe: string;
+      icon: string;
+      description: string;
+      side: 'left' | 'right';
     }>;
+    cta: {
+      text: string;
+      buttonColor: string;
+      textColor: string;
+    };
+    guarantee: string;
+    backgroundColor?: string;
   };
-  guarantee: {
-    days: number;
-    title: string;
-    description: string;
-    features: string[];
-  };
-  bonus: {
-    title: string;
-    productName: string;
-    value: number;
-    description: string;
-    image: string;
-  };
-  faq: {
-    title: string;
+  faq?: {
     questions: Array<{
       id: number;
       question: string;
       answer: string;
     }>;
-  };
-  features: {
-    enableTestimonials: boolean;
-    enableFAQ: boolean;
-    enableCustomerSurvey: boolean;
-    enableGuarantee: boolean;
-    enableBonus: boolean;
-    enableNutritionFacts: boolean;
-  };
-  contact: {
-    email: string;
-    phone: string;
-    hours: string;
-  };
-  footer: {
-    logoUrl: string;
-    links: Array<{
-      label: string;
-      url: string;
-    }>;
-    copyright: string;
   };
   variants: {
     single: string;
@@ -133,7 +191,7 @@ export const applyThemeColors = (config: RosabellaMoringaConfig | undefined) => 
 
 export const isFeatureEnabled = (
   config: RosabellaMoringaConfig | undefined,
-  feature: keyof RosabellaMoringaConfig['features']
+  feature: string
 ): boolean => {
   return config?.features?.[feature] ?? false;
 };

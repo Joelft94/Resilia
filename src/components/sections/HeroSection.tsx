@@ -174,23 +174,23 @@ export function HeroSection() {
                         <button
                             onClick={onBuyNow}
                             disabled={initLoading}
-                            className="w-full text-xl font-bold py-4 px-8 rounded-lg transition-all disabled:opacity-50 disabled:cursor-not-allowed mb-4"
+                            className="w-full text-xl font-bold py-4 px-8 rounded-full transition-all disabled:opacity-50 disabled:cursor-not-allowed mb-4"
                             style={{
-                                backgroundColor: config.cta?.primaryButtonColor || '#059669',
-                                color: config.cta?.primaryButtonTextColor || '#ffffff'
+                                backgroundColor: '#2d6a4f',
+                                color: '#ffffff'
                             }}
                         >
                             {initLoading ? 'Processing...' : config.cta?.primaryButton || 'ADD TO CART'}
                         </button>
 
                         {/* Stock and Delivery Info */}
-                        <div className="flex items-center justify-between text-sm text-gray-600 mb-6">
+                        <div className="flex items-center justify-center gap-6 text-sm text-gray-600 mb-6">
                             <div className="flex items-center gap-2">
                                 <span className="w-2 h-2 bg-green-500 rounded-full"></span>
                                 <span>{config.shipping?.stockMessage || 'In stock'}</span>
                             </div>
                             <div className="flex items-center gap-2">
-                                <span>⏱️</span>
+                                <span>📦</span>
                                 <span>Expected delivery in {config.shipping?.deliveryTime || '3 to 6 business days'}</span>
                             </div>
                         </div>
@@ -215,7 +215,7 @@ export function HeroSection() {
                         <GuaranteeSection />
 
                         {/* FAQ Section */}
-                        <FAQSection />
+                        <FAQSection showCTA={false} showTitle={false} className="mt-6" />
                     </div>
                 </div>
             </div>

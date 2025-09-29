@@ -129,8 +129,8 @@ const ComparisonSection = () => {
           <button
             className="px-12 py-4 rounded-full text-lg font-semibold transition-colors hover:opacity-90 mb-4"
             style={{
-              backgroundColor: cta.buttonColor,
-              color: cta.textColor
+              backgroundColor: '#2d6a4f',
+              color: '#ffffff'
             }}
           >
             {cta.text}

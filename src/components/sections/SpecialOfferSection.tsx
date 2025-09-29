@@ -102,10 +102,10 @@ const SpecialOfferSection = () => {
             {/* CTA Button */}
             <div className="text-left mb-8">
               <button
-                className="w-full lg:w-auto px-12 py-4 rounded-lg text-lg font-semibold transition-colors hover:opacity-90"
+                className="w-full lg:w-auto px-12 py-4 rounded-full text-lg font-semibold transition-colors hover:opacity-90"
                 style={{
-                  backgroundColor: cta.buttonColor,
-                  color: cta.textColor
+                  backgroundColor: '#2d6a4f',
+                  color: '#ffffff'
                 }}
               >
                 {cta.text}

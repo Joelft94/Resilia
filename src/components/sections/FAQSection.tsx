@@ -2,7 +2,13 @@ import React, { useState } from 'react';
 import { ChevronDown, ChevronUp } from 'lucide-react';
 import { useLandingPageController } from '../../hooks/useLandingController';
 
-export const FAQSection = () => {
+interface FAQSectionProps {
+  showCTA?: boolean;
+  showTitle?: boolean;
+  className?: string;
+}
+
+export const FAQSection = ({ showCTA = true, showTitle = true, className = "" }: FAQSectionProps) => {
   const { config } = useLandingPageController();
   const [openQuestions, setOpenQuestions] = useState<number[]>([]);
 
@@ -16,12 +22,17 @@ export const FAQSection = () => {
     );
   };
 
+  const sectionClasses = showTitle ? "py-16 px-4 bg-gray-50" : className;
+  const containerClasses = showTitle ? "max-w-4xl mx-auto" : "";
+
   return (
-    <section className="py-16 px-4 bg-gray-50">
-      <div className="max-w-4xl mx-auto">
-        <h2 className="text-3xl lg:text-4xl font-bold text-center text-gray-900 mb-12">
-          Frequently Asked Questions
-        </h2>
+    <section className={sectionClasses}>
+      <div className={containerClasses}>
+        {showTitle && (
+          <h2 className="text-3xl lg:text-4xl font-bold text-center text-gray-900 mb-12">
+            Frequently Asked Questions
+          </h2>
+        )}
 
         <div className="space-y-4">
           {config.faq.questions.map((faq) => (
@@ -53,23 +64,25 @@ export const FAQSection = () => {
           ))}
         </div>
 
-        {/* Final CTA */}
-        <div className="text-center mt-12">
-          <button
-            className="px-12 py-4 rounded-full text-lg font-semibold transition-colors hover:opacity-90 mb-4"
-            style={{
-              backgroundColor: config.cta?.primaryButtonColor || '#059669',
-              color: config.cta?.primaryButtonTextColor || '#ffffff'
-            }}
-          >
-            BUY NOW & SAVE
-          </button>
+        {/* Final CTA - only show if showCTA is true */}
+        {showCTA && (
+          <div className="text-center mt-12">
+            <button
+              className="px-12 py-4 rounded-full text-lg font-semibold transition-colors hover:opacity-90 mb-4"
+              style={{
+                backgroundColor: '#2d6a4f',
+                color: '#ffffff'
+              }}
+            >
+              BUY NOW & SAVE
+            </button>
 
-          <p className="text-sm text-gray-600 flex items-center justify-center gap-2">
-            <span className="w-4 h-4 flex items-center justify-center">🛡️</span>
-            90-Day Money Back Guarantee
-          </p>
-        </div>
+            <p className="text-sm text-gray-600 flex items-center justify-center gap-2">
+              <span className="w-4 h-4 flex items-center justify-center">🛡️</span>
+              90-Day Money Back Guarantee
+            </p>
+          </div>
+        )}
       </div>
     </section>
   );

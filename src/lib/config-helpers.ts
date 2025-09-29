@@ -155,6 +155,51 @@ export interface RosabellaMoringaConfig {
     guarantee: string;
     backgroundColor?: string;
   };
+  comparisonSection?: {
+    title: string;
+    rosabellaProduct: {
+      name: string;
+      image: string;
+    };
+    genericProduct: {
+      name: string;
+      image: string;
+    };
+    comparisonItems: Array<{
+      feature: string;
+      isHeader?: boolean;
+      rosabellaHas?: boolean;
+      genericHas?: boolean;
+    }>;
+    cta: {
+      text: string;
+      buttonColor: string;
+      textColor: string;
+    };
+    guarantee: string;
+    backgroundColor?: string;
+  };
+  specialOffer?: {
+    title: string;
+    subtitle: string;
+    riskFreeText: string;
+    offerImage: string;
+    benefitsTitle: string;
+    benefits: string[];
+    price: string;
+    cta: {
+      text: string;
+      buttonColor: string;
+      textColor: string;
+    };
+    paymentMethods: Array<{
+      name: string;
+      icon: string;
+    }>;
+    securityMessage: string;
+    availabilityNote: string;
+    backgroundColor?: string;
+  };
   faq?: {
     questions: Array<{
       id: number;

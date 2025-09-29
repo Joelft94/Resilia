@@ -62,42 +62,37 @@
   "paymentMethods": [
     {
       "name": "American Express",
-      "icon": "/images/icons/amex.svg",
+      "icon": "/icons/amex.webp",
       "alt": "Amex"
     },
     {
       "name": "Apple Pay",
-      "icon": "/images/icons/apple-pay.svg",
+      "icon": "/icons/applepay.webp",
       "alt": "Apple Pay"
     },
     {
-      "name": "Diners Club",
-      "icon": "/images/icons/diners.svg",
-      "alt": "Diners"
-    },
-    {
       "name": "Discover",
-      "icon": "/images/icons/discover.svg",
+      "icon": "/icons/discover.webp",
       "alt": "Discover"
     },
     {
+      "name": "Google Pay",
+      "icon": "/icons/gpay.webp",
+      "alt": "Google Pay"
+    },
+    {
       "name": "Mastercard",
-      "icon": "/images/icons/mastercard.svg",
+      "icon": "/icons/mastercard.webp",
       "alt": "Mastercard"
     },
     {
-      "name": "Maestro",
-      "icon": "/images/icons/maestro.svg",
-      "alt": "Maestro"
-    },
-    {
-      "name": "Shop Pay",
-      "icon": "/images/icons/shop-pay.svg",
-      "alt": "Shop Pay"
+      "name": "PayPal",
+      "icon": "/icons/paypal.webp",
+      "alt": "PayPal"
     },
     {
       "name": "Visa",
-      "icon": "/images/icons/visa.svg",
+      "icon": "/icons/visa.webp",
       "alt": "Visa"
     }
   ],
@@ -318,39 +313,200 @@
     "guarantee": "90-Day Money Back Guarantee",
     "backgroundColor": "#f8f9fa"
   },
+  "comparisonSection": {
+    "title": "Why Rosabella Moringa CRUSHES Greens Powders",
+    "rosabellaProduct": {
+      "name": "Rosabella Moringa",
+      "image": "/icons/comparison-1.webp"
+    },
+    "genericProduct": {
+      "name": "Generic Greens Powders",
+      "image": "/icons/comparison-2.webp"
+    },
+    "comparisonItems": [
+      {
+        "feature": "Pound for pound which has more",
+        "isHeader": true
+      },
+      {
+        "feature": "Vitamin B12 & B6",
+        "rosabellaHas": true,
+        "genericHas": false
+      },
+      {
+        "feature": "Iron & Magnesium",
+        "rosabellaHas": true,
+        "genericHas": false
+      },
+      {
+        "feature": "Potent Antioxidants",
+        "rosabellaHas": true,
+        "genericHas": false
+      },
+      {
+        "feature": "Natural Vitamin A",
+        "rosabellaHas": true,
+        "genericHas": false
+      },
+      {
+        "feature": "High-Quality Leaf Extract",
+        "rosabellaHas": true,
+        "genericHas": false
+      },
+      {
+        "feature": "Easy to Take Capsules",
+        "rosabellaHas": true,
+        "genericHas": false
+      },
+      {
+        "feature": "Consistent Energy Boost",
+        "rosabellaHas": true,
+        "genericHas": false
+      },
+      {
+        "feature": "No Strange Taste",
+        "rosabellaHas": true,
+        "genericHas": false
+      },
+      {
+        "feature": "Artificial Ingredients & Fillers",
+        "rosabellaHas": false,
+        "genericHas": true
+      },
+      {
+        "feature": "Low Potency & Low Absorption",
+        "rosabellaHas": false,
+        "genericHas": true
+      },
+      {
+        "feature": "Often Expired or Poorly Sourced",
+        "rosabellaHas": false,
+        "genericHas": true
+      }
+    ],
+    "cta": {
+      "text": "BUY NOW & SAVE",
+      "buttonColor": "#059669",
+      "textColor": "#ffffff"
+    },
+    "guarantee": "90-Day Money Back Guarantee",
+    "backgroundColor": "#ffffff"
+  },
+  "specialOffer": {
+    "title": "Special Offer On Now!",
+    "subtitle": "Try Rosabella Moringa Now Risk-Free with our First Time Buyer's Offer!",
+    "riskFreeText": "Risk-Free",
+    "offerImage": "/images/1731061022-Special offer.webp",
+    "benefitsTitle": "Act Now and You'll Get:",
+    "benefits": [
+      "Buy One Bottle, Get a Second Bottle FREE - Rosabella Moringa Supplement (Two bottles for the price of one)",
+      "90-Day Results or Refund Guarantee",
+      "FREE Shipping",
+      "Bonus: Ultimate Nutrition Plan for Energy & Stamina ($100+ Value)",
+      "Discover the top foods and nutrients to fuel your body and keep you energized all day.",
+      "Bonus: TOP 10 Home Remedies for Beating Fatigue: Your Essential Guide to Lasting Energy ($20+ Value)"
+    ],
+    "price": "TODAY ONLY: $39.95",
+    "cta": {
+      "text": "BUY NOW & SAVE",
+      "buttonColor": "#059669",
+      "textColor": "#ffffff"
+    },
+    "paymentMethods": [
+      {
+        "name": "PayPal",
+        "icon": "/icons/paypal.webp"
+      },
+      {
+        "name": "Visa",
+        "icon": "/icons/visa.webp"
+      },
+      {
+        "name": "Mastercard",
+        "icon": "/icons/mastercard.webp"
+      },
+      {
+        "name": "American Express",
+        "icon": "/icons/amex.webp"
+      },
+      {
+        "name": "Discover",
+        "icon": "/icons/discover.webp"
+      },
+      {
+        "name": "Apple Pay",
+        "icon": "/icons/applepay.webp"
+      }
+    ],
+    "securityMessage": "All transactions are secure and encrypted",
+    "availabilityNote": "Not Available on Amazon or eBay",
+    "backgroundColor": "#ffffff"
+  },
   "faq": {
     "questions": [
       {
         "id": 1,
-        "question": "How Does It Work?",
-        "answer": "Rosabella Moringa works by delivering essential nutrients that support your body's natural balance and energy production."
+        "question": "Can I buy Rosabella Moringa in stores?",
+        "answer": "Currently, Rosabella Moringa Superfood Supplement is available exclusively through our website. This allows us to ensure the highest quality and best pricing for our customers."
       },
       {
         "id": 2,
-        "question": "What Can Rosabella Moringa Help With?",
-        "answer": "💧 Feeling Puffy or Bloated\nStress and nutrient deficiencies may contribute to occasional water retention and visible puffiness. Rosabella Moringa includes supportive nutrients that help you feel lighter and more balanced from within.\n\n⚡ Low Energy & Fatigue\nRosabella Moringa delivers nutrients like magnesium, B vitamins, and antioxidants that support natural energy production. Helping you feel more awake and alert throughout the day.\n\n😴 Occasional Sleeplessness\nNutrients in Rosabella Moringa help support relaxation and stress resilience, which can contribute to better sleep quality over time.\n\n😤 Stress & Irritability\nMagnesium and B-vitamins in Rosabella Moringa help maintain emotional balance by supporting a healthy nervous system.\n\n🧠 Brain Fog\nA combination of antioxidants and brain-nourishing nutrients supports mental clarity and focus.\n\n🦴 Joint Discomfort\nNutrients like quercetin and vitamin C support healthy inflammatory responses, helping you stay comfortable and mobile.\n\n🛡️ Immune Support\nVitamins A, C, and zinc help support year-round immune system function."
+        "question": "What ingredients are in Rosabella Moringa?",
+        "answer": "Each serving (two capsules) contains 800mg of Moringa Leaf Powder – a plant source of naturally occurring vitamins, minerals, and antioxidants. Our Moringa is grown with care, ethically sourced, and produced with quality standards in mind."
       },
       {
         "id": 3,
-        "question": "When Will I See Results?",
-        "answer": "Most customers notice improvements in energy and overall wellness within the first 1-2 weeks of consistent use. For optimal results, we recommend taking Rosabella Moringa daily for at least 30 days."
+        "question": "Is Rosabella Moringa safe to take with my current medications?",
+        "answer": "While Rosabella Moringa is generally safe to use, It's always best to consult with your healthcare provider before starting any new supplement, especially if you're taking medications or have health concerns."
       },
       {
         "id": 4,
-        "question": "How Long Until I Get It?",
-        "answer": "Orders typically ship within 1-2 business days and arrive within 3-6 business days via standard shipping. Expedited shipping options are available at checkout."
+        "question": "How should I store Rosabella Moringa?",
+        "answer": "Store Rosabella Moringa in a cool, dry place, away from direct sunlight. Keep the container tightly closed when not in use to maintain freshness and potency."
       },
       {
         "id": 5,
-        "question": "Who Can Use It?",
-        "answer": "Rosabella Moringa is formulated for adults looking to support their natural energy, stress response, and overall wellness. As with any supplement, consult your healthcare provider before use if you are pregnant, nursing, or have any medical conditions."
+        "question": "Will the Rosabella Moringa supplement help with my energy levels and overall health?",
+        "answer": "Rosabella Moringa provides a concentrated source of nutrients your body needs to function at its best — including B vitamins, magnesium, iron, and antioxidants. These nutrients play key roles in supporting natural energy production, immune function, and overall vitality when consumed consistently as part of a healthy lifestyle."
       },
       {
         "id": 6,
-        "question": "Results or Full Refund Guarantee",
-        "answer": "We offer a 90-day money-back guarantee. If you're not completely satisfied with your results, simply return the product within 90 days for a full refund - no questions asked."
+        "question": "How long until I feel improvement in my energy levels and health?",
+        "answer": "Most customers notice improvements in energy and overall wellness within the first 1-2 weeks of consistent use. For optimal results, we recommend taking Rosabella Moringa daily for at least 30 days."
+      },
+      {
+        "id": 7,
+        "question": "How often should I take the supplement?",
+        "answer": "We recommend taking two capsules daily with food for optimal absorption. You can take them with your morning meal or split them between meals - whatever works best for your routine."
+      },
+      {
+        "id": 8,
+        "question": "How many servings are in each container?",
+        "answer": "Each container contains 60 capsules, providing a full 30-day supply when taking the recommended two capsules per day."
+      },
+      {
+        "id": 9,
+        "question": "Are there any age or health restrictions?",
+        "answer": "Rosabella Moringa is formulated for adults looking to support their natural energy, stress response, and overall wellness. As with any supplement, consult your healthcare provider before use if you are pregnant, nursing, under 18, or have any medical conditions."
+      },
+      {
+        "id": 10,
+        "question": "What if the supplement doesn't work for me?",
+        "answer": "We stand behind our product with a 90-day money-back guarantee. If you're not completely satisfied with your results, simply contact us within 90 days for a full refund - no questions asked."
+      },
+      {
+        "id": 11,
+        "question": "What is your return policy?",
+        "answer": "If you're not satisfied with Rosabella Moringa, you can contact us within 90 days of receiving your order and we'll guide you through the return process. Your satisfaction is important to us."
       }
     ]
+  },
+  "footer": {
+    "companyName": "Rosabella",
+    "logoUrl": "/images/logo.png",
+    "copyright": "© 2025, Rosabella",
+    "fdaDisclaimer": "These statements have not been approved by the Food and Drug Administration. This product is not intended to diagnose, treat, cure, or prevent any disease. Testimonials found at tryrosabella.com are unverified results, and may not reflect the typical purchaser's experience, may not apply to the average person and are not intended to represent or guarantee that anyone will achieve the same or similar results.",
+    "medicalDisclaimer": "Information on the Rosabella website is provided for informational purposes only. It is not meant to substitute for medical advice from your physician or other medical professional. You should not use the information contained herein for diagnosing or treating a health problem or disease, or prescribing any medication. Carefully read all product documentation. If you have or suspect that you have a medical problem, promptly contact your regular health care provider."
   },
   "variants": {
     "single": "variant_8fb9124b0c1d"

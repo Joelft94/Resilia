@@ -11,6 +11,10 @@ import { OneIngredientSection } from './sections/OneIngredientSection';
 import VideoTestimonialsSection from './sections/VideoTestimonialsSection';
 import MoringaPromiseSection from './sections/MoringaPromiseSection';
 import ExpectationTimelineSection from './sections/ExpectationTimelineSection';
+import ComparisonSection from './sections/ComparisonSection';
+import SpecialOfferSection from './sections/SpecialOfferSection';
+import { FAQSection } from './sections/FAQSection';
+import { FooterSection } from './sections/FooterSection';
 
 export function RosabellaMoringaLanding() {
     const controller = useLandingPageController();
@@ -85,6 +89,18 @@ export function RosabellaMoringaLanding() {
 
             {/* Expectation Timeline Section */}
             <ExpectationTimelineSection />
+
+            {/* Comparison Section */}
+            <ComparisonSection />
+
+            {/* Special Offer Section */}
+            <SpecialOfferSection />
+
+            {/* FAQ Section */}
+            <FAQSection />
+
+            {/* Footer Section */}
+            <FooterSection />
         </div>
     );
 }

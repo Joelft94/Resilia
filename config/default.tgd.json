@@ -1,7 +1,7 @@
 {
   "configName": "rosabella-moringa-default",
-  "storeId": "store_75043c382eaf",
-  "accountId": "acc_2bd9322e0ac2",
+  "storeId": "store_fdec0482420e",
+  "accountId": "acc_47a93cc912de",
   "branding": {
     "companyName": "Rosabella",
     "logoUrl": "/images/logo/1725713121-logo_rosabella.webp",
@@ -21,7 +21,7 @@
     "rotationInterval": 3000
   },
   "product": {
-    "id": "product_cb0ca0e58dd1",
+    "id": "product_7fd842e85e36",
     "name": "Rosabella Moringa",
     "subtitle": "Naturally Lowers Cortisol To Help Restore Balance Inside and Out",
     "description": "Rosabella Moringa is designed to lower cortisol — the hidden root cause behind stress, weight gain, poor sleep, and brain fog.",
@@ -396,7 +396,7 @@
     "title": "Special Offer On Now!",
     "subtitle": "Try Rosabella Moringa Now Risk-Free with our First Time Buyer's Offer!",
     "riskFreeText": "Risk-Free",
-    "offerImage": "/images/1731061022-Special offer.webp",
+    "offerImage": "/images/1731061022-Special-offer.webp",
     "benefitsTitle": "Act Now and You'll Get:",
     "benefits": [
       "Buy One Bottle, Get a Second Bottle FREE - Rosabella Moringa Supplement (Two bottles for the price of one)",
@@ -509,18 +509,25 @@
     "medicalDisclaimer": "Information on the Rosabella website is provided for informational purposes only. It is not meant to substitute for medical advice from your physician or other medical professional. You should not use the information contained herein for diagnosing or treating a health problem or disease, or prescribing any medication. Carefully read all product documentation. If you have or suspect that you have a medical problem, promptly contact your regular health care provider."
   },
   "variants": {
-    "single": "variant_8fb9124b0c1d"
+    "single": "variant_efe4014e96c5"
   },
   "prices": {
-    "variant_8fb9124b0c1d": {
-      "oneTime": "price_ec67452d4e44",
-      "recurring": "price_a112307300b6"
+    "variant_efe4014e96c5": {
+      "oneTime": "price_ee5d7682e7aa",
+      "recurring": ""
     }
   },
   "seo": {
     "title": "Rosabella Moringa - Naturally Lower Cortisol & Restore Balance",
     "description": "Rosabella Moringa naturally lowers cortisol to help restore balance inside and out. Support energy, sleep, mood, and mental clarity.",
-    "keywords": ["moringa", "cortisol", "natural supplement", "energy", "sleep", "stress relief"]
+    "keywords": [
+      "moringa",
+      "cortisol",
+      "natural supplement",
+      "energy",
+      "sleep",
+      "stress relief"
+    ]
   },
   "defaultCurrency": "USD"
 }
